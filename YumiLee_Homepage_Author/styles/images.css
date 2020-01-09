@@ -1,0 +1,60 @@
+article{
+	margin-left: 16px;
+	margin-top: 40px;
+	padding: 4px;
+}
+figure{
+	margin: 10px;
+}
+
+.images{
+	vertical-align:middle;
+	border: 2px solid black;
+}
+.images:hover{
+	transform:scale(2);
+}
+.figcaption{
+	font-weight:bold;
+	padding:4px;
+}
+article ul{
+	list-style: none;
+	display: inline;
+}
+
+/* References
+Amazon.co.uk(n.d). Czarny kwiat. Retrived April 11, 2019, from
+https://www.amazon.co.uk/Czarny-kwiat-Kim-Young-ha/dp/839352718X
+
+Amazon.com(n.d). Flor Negra (Portuguese Edition). Retrived April 11, 2019, from
+https://www.amazon.com/Flor-Negra-Portuguese-Kim-Young-ha-ebook/dp/B00GMOA1W0
+
+images.gr-assets.com(n.d). Retrived April 11, 2019, from
+https://images.gr-assets.com/books/1342599077l/7121990.jpg
+
+Amazon.com(n.d). I Hear Your Voice. Retrived April 11, 2019, from
+https://www.amazon.com/Hear-Your-Voice-Young-Ha-Kim/dp/0544324471
+
+Amazon.com(n.d). Photo Shop Murder. Retrived April 11, 2019, from
+https://www.amazon.com/Photo-Shop-Murder-Young-Ha-Kim/dp/8988095715
+
+Amazon.com(n.d). Black Flower. Retrived April 11, 2019, from
+https://www.amazon.com/Black-Flower-Young-Ha-Kim/dp/0544106393
+
+Amazon.com(n.d). Your Republic Is Calling You (Korean Edition). Retrived April 11, 2019, from
+https://images-na.ssl-images-amazon.com/images/I/41jxCKbzFEL._SX352_BO1,204,203,200_.jpg
+
+Amazon.com(n.d). Your Republic Is Calling You (Korean Edition). Retrived April 11, 2019, from
+https://www.amazon.com/Your-Republic-Calling-You-Young-ha/dp/0151015457
+
+Barnes & Noble(n.d). Tenho o Direito de Me Destruir. Retrived April 11, 2019, from
+https://www2.barnesandnoble.com/w/tenho-o-direito-de-me-destruir-kim-young-ha/1119046649?type=eBook
+
+Houghton Mifflin Harcourt(n.d). Diary of a Murderer: And Other Stories. Retrived April 11, 2019, from
+https://www.hmhbooks.com/shop/books/Diary-of-a-Murderer/9781328545565
+
+Ted.com(n.d). Young-ha Kim. Retrived April 11, 2019, from
+https://www.ted.com/speakers/young_ha_kim
+*/
+	

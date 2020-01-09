@@ -1,0 +1,17 @@
+#fieldsetFeedback{
+	margin-top: 30px;
+	padding: 20px;
+}
+
+textarea{
+	height:12em;
+	width:30em;
+}
+.radioli{
+	display: inline;
+}
+
+.legend{
+	font-weight:bold;
+	color: red;
+}

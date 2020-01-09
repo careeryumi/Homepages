@@ -1,0 +1,127 @@
+<! DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8" /> 
+	<title>YoungHa Kim Fan Site</title>
+	<link rel ="stylesheet" href="../styles/main.css">
+	<link rel ="stylesheet" href="../styles/index.css">
+	<link rel ="stylesheet" href="../styles/feedback.css">
+	
+	<link rel="icon" type="image/ico" href="../images/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	
+</head>
+<body>
+	<header>
+		<a href = "../index.html"><img src="../images/authorMain.jpg" alt="Author Picture" width="150"></a>
+		<!-- inside a tag, put a img tag -->
+		<h1> Young-Ha Kim, Author </h1>
+		<h2> Modern South Korean Writer </h2>
+	</header>
+		<!-- between header and main, put navigation menu -->	
+	<nav id="nav_menu"> <!-- nav id -->	<!-- 3 tier navigation menu -->
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+					<!-- put current inside a tag -->			
+			<li><a href="table.html">Author</a></li>
+			<li><a href="images.html">Books</a>
+				<ul>
+					<li><a href="#">1990s</a></li>
+					<li><a href="#">2000s</a>
+						<ul>
+							<li><a href="#">Quiz Show</a></li>
+							<li><a href="#">Your Republic is Calling You</a></li>
+						</ul>
+					</li>
+					<li><a href="#">2010s</a></li>
+				</ul>
+			</li>	
+			<li><a href="feedback.html" class="lastitem" id="currentFeedback">Feedback</a></li>
+		</ul>
+	</nav>
+	<main>
+		<aside id="sidebarA">
+			<nav>
+				<ul>
+					<li><a href="../index.html"><figcaption>Home</figcaption><img src="../images/home.jpg" alt="Home picture" width="100"></a>
+					<li><a href="table.html"><figcaption>Author</figcaption><img src="../images/author.jpg" alt="Author picture" width="100"></a>
+					<li><a href="images.html"><figcaption>Books</figcaption><img src="../images/books.jpg" alt="Book picture" width="100"></a>
+					<li><a href="feedback.html"><figcaption>Feedback</figcaption><img src="../images/feedback.jpg" alt="Feedback picture" width="100"></a>
+				</ul>
+			</nav>
+		</aside>
+		<section>
+			<article>
+			<fieldset id="fieldsetFeedback">
+			<legend class="legend"> Feedback </legend>
+				Name: <input type="text" name="name" autofocus tabindex="1"><br><br>
+				<form name="email_form" action="subscribe.php" method="post">
+					E-mail: <input type="text" name="email" tabindex="2"></form>
+				Age: 
+					<select name="age" tabindex="3">
+					<optgroup label="Age from 0 to 60">
+						<option value="20">0-20</option>
+						<option value="40">20-40</option>
+						<option value="60">40-60</option>
+					</optgroup>
+					<optgroup label="Age from 60 to 120">
+						<option value="80">60-80</option>
+						<option value="100">80-100</option>
+						<option value="120">100-120</option>
+					</optgroup>
+					</select><br><br>
+				Gender:<br>
+					<select name="gender" size="3" multiple tabindex="4">
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+					<option value="Not">Not to disclose</option>
+					</select><br><br>
+				Comments:<br>
+				<textarea name="comments" placeholder="If you have any comments, please enter them here" tabindex="5">
+				</textarea>					
+				<br><br>
+				<input type="submit" id="submit" value="submit" tabindex="6">
+				<input type="reset" id="reset" value="reset" tabindex="7">
+			</fieldset>
+			</article>
+
+		</section>
+		<aside id="sidebarB">
+			<br>
+			<fieldset>
+			<legend class="legend">Positive attribute<br> about this website:</legend>
+			<input type="checkbox" name="attribute1" id="attribute1" value="Fun to Visit">			
+			<label for="attribute1">1. Fun to Visit</label><br><br>
+			<input type="checkbox" name="attribute2" id="attribute2" value="Well Designed">
+			<label for="attribute1">2. Well Designed</label><br><br>
+			<input type="checkbox" name="attribute3" id="attribute3" value="Uses good colours">
+			<label for="attribute1">3. Uses good colours</label><br><br>
+			<input type="checkbox" name="attribute4" id="attribute4" value="etc">
+			<label for="attribute1">4. etc.</label><br><br>
+			</fieldset>
+			<br><br><br>
+		
+			<fieldset>
+			<legend class="legend">Will you visit this<br>site again:</legend>		
+			<ul>
+			<li class="radioli"><input type="radio" name="visit" id="visit1" value="-yes">			
+			<label for="visit1">Yes</label></li>
+			<input type="radio" name="visit" id="visit2" value="-no">
+			<li class="radioli"><label for="visit2">No</label><li>
+			</ul>
+			</fieldset>
+			
+		</aside>
+	</main>
+	<footer>
+		<h4>2019 Yumi Lee</h4> 
+	</footer>
+	
+</body>
+</html>
